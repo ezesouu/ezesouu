@@ -57,7 +57,7 @@ Gráfico guardado en orbita_satelite_altitud_fase.png
 <img width="400" height="400" alt="image" src="https://github.com/user-attachments/assets/97f498b2-bc56-4282-860a-04759cfdb68d" />
 <img width="400" height="300" alt="image" src="https://github.com/user-attachments/assets/f75592d0-0f43-4068-a57b-faf5d362364b" />
 
-##Ejemplo (circular):
+## Ejemplo (circular):
 ```console
 python main.py --circular 2000
 ```
