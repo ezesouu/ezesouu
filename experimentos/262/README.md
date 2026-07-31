@@ -27,8 +27,6 @@ Pero si consideramos que la reacción ocurre en un ambiente abierto, entonces $$
 ```math
 \Delta H_B=mc_e\Delta T
 ```
-> [!NOTE]
-> $$\Delta P$$ es la diferencia de presión de gas justo antes del inicio de la reacción ($$P_i\to T_i\approx1\text{ bar}\to 288\text{ K}$$) y en el momento del equilibrio térmico ($$P_f\to T_f$$)
 
 Ya que
 ```math
@@ -43,4 +41,8 @@ calcular experimentalmente
 ```math
 \epsilon=\frac{\Delta H_A}{\Delta H_B}-\Delta H_B
 ```
-para cada alcalino mencionado, y graficar $$\Delta H(m)=mc_e\Delta T$$ en el mismo eje de coordenadas.
+para cada alcalino mencionado, y graficar $$\Delta H_X(m)=mc_{e_X}\Delta T_X$$ en el mismo eje de coordenadas.
+> [!NOTE]
+> $$\Delta P$$ es la diferencia de presión de gas (aire + $$\text{H}_2$$) justo antes del inicio de la reacción y en el momento del equilibrio térmico.
+> 
+> Asimismo, $$\Delta T$$ es la diferencia de temperatura del solvente (agua destilada, $$\text{H}_2\text{O}$$) justo antes del inicio de la reacción y en el momento del equilibrio térmico.
