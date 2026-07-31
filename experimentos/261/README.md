@@ -1,4 +1,4 @@
-# 261 — Representación de órbita de un satélite alrededor de la Tierra (2D)
+# 261 — Representación de la órbita de un satélite alrededor de la Tierra (2D)
 
 ## Qué es
 
