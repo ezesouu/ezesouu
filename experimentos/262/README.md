@@ -41,4 +41,3 @@ calcular experimentalmente
 ```math
 \epsilon=\frac{\Delta H_A}{\Delta H_B}-\Delta H_B
 ```
-para cada alcalino mencionado, y graficar $$\Delta H_X(m)$$ en el mismo eje de coordenadas.
