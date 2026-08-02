@@ -15,7 +15,7 @@ Y sabiendo que:
 - $$W=P\Delta V$$
 - $$\Delta(PV)=P\Delta V+V\Delta P$$
 
-Podemos deducir finalmente que:
+Podemos deducir que:
 ```math
 \Delta H=mc_e\Delta T-P\Delta V+P\Delta V+V\Delta P
 ```
