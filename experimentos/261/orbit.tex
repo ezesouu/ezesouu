@@ -1,0 +1,269 @@
+\documentclass[a4paper,10pt,twocolumn]{article}
+
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{tikz}
+\usetikzlibrary{arrows.meta, shapes.geometric} % Necesario para 'triangle 45' y nodos
+
+\usepackage{pgfplots}
+\usepgfplotslibrary{polar}
+\pgfplotsset{compat=1.18}
+
+\usepackage{caption}
+\usepackage{subcaption} % ÚNICO paquete para manejo de subfigure
+
+\pagestyle{empty}
+
+\title{Concentración extrema de energía y formación de agujeros negros artificiales}
+\author{Ezequiel}
+\date{2026}
+
+\begin{document}
+
+\maketitle
+
+\section{Introducción}
+La búsqueda de condiciones extremas de energía y densidad constituye una de las fronteras más profundas de la física moderna. El desarrollo de aceleradores de partículas como el Gran Colisionador de Hadrones (LHC) permitió alcanzar regiones de energía nunca antes disponibles experimentalmente, abriendo la posibilidad de estudiar fenómenos asociados a escalas fundamentales de la naturaleza.
+
+Una de las preguntas planteadas dentro de la física teórica es si una concentración suficientemente grande de energía podría producir un micro-agujero negro. Esta hipótesis surge naturalmente de la relación entre masa y energía establecida por la relatividad especial:
+
+\begin{equation}
+E=mc^2
+\end{equation}
+
+donde una cantidad de energía ($E$) posee un equivalente gravitatorio asociado a una masa:
+
+\begin{equation}
+m=\frac{E}{c^2}
+\end{equation}
+
+Desde esta perspectiva, una colisión de partículas extremadamente energéticas podría interpretarse como una concentración temporal de masa equivalente dentro de una región extremadamente pequeña.
+
+Inicialmente se consideró la posibilidad de utilizar partículas individuales aceleradas a velocidades relativistas, como protones del LHC. Posteriormente se analizaron sistemas más masivos, como núcleos de plomo, uranio u otros elementos pesados, buscando aumentar la energía disponible mediante un mayor número de nucleones.
+
+Sin embargo, al comparar la energía de las colisiones con el radio de Schwarzschild asociado a dicha energía, aparece una diferencia fundamental entre las escalas de la física de partículas y las escalas gravitatorias.
+
+El radio de Schwarzschild:
+
+\begin{equation}
+R_S=\frac{2GM}{c^2}
+\end{equation}
+
+determina el tamaño que debe alcanzar una masa $M$ para convertirse en un agujero negro.
+
+Al sustituir la equivalencia masa-energía:
+
+\begin{equation}
+m=\frac{E}{c^2}
+\end{equation}
+
+se obtiene:
+
+\begin{equation}
+R_S=\frac{2GE}{c^4}
+\end{equation}
+
+Esta expresión permite comparar directamente la energía disponible en un experimento con la escala espacial necesaria para producir un horizonte de sucesos.
+
+El análisis muestra que, aunque los aceleradores actuales generan energías enormes desde el punto de vista humano, la energía equivalente gravitacional sigue siendo extremadamente pequeña. Esto lleva a abandonar la idea de aumentar únicamente la masa de las partículas y plantea una nueva pregunta: ¿Puede una concentración controlada de energía electromagnética alcanzar las condiciones necesarias para generar un agujero negro artificial?
+
+Esta pregunta conduce al concepto de kugelblitz: un agujero negro formado exclusivamente por energía radiante.
+
+\section{Metodología}
+
+El estudio se desarrolla mediante la aplicación de conceptos de relatividad general, relatividad especial y análisis dimensional.
+
+La primera relación utilizada es:
+
+\begin{equation}
+E=mc^2
+\end{equation}
+
+La energía puede interpretarse como una fuente gravitatoria debido al principio de equivalencia entre masa y energía.
+
+Por lo tanto:
+
+\begin{equation}
+m=\frac{E}{c^2}
+\end{equation}
+
+donde:
+
+\begin{itemize}
+\item $m$: masa equivalente gravitatoria.
+\item $E$: energía total concentrada.
+\item $c$: velocidad de la luz.
+\end{itemize}
+
+Para una masa esféricamente simétrica:
+
+\begin{equation}
+R_s=\frac{2GM}{c^2}
+\end{equation}
+
+donde:
+
+\begin{itemize}
+\item $G$: constante de gravitación universal.
+\item $M$: masa total.
+\item $R_s$: radio del horizonte de sucesos.
+\end{itemize}
+
+Sustituyendo:
+
+\begin{equation}
+m=\frac{E}{c^2}
+\end{equation}
+
+se obtiene:
+
+\begin{equation}
+R_s=\frac{2G}{c^2}\frac{E}{c^2}
+\end{equation}
+
+por lo tanto:
+
+\begin{equation}
+\boxed{R_s=\frac{2GE}{c^4}}
+\end{equation}
+
+Esta ecuación representa la condición fundamental del problema: una energía $E$ debe encontrarse dentro de una región menor o igual a su radio gravitatorio asociado.
+
+Entonces:
+
+\begin{equation}
+R\leq\frac{2GE}{c^4}
+\end{equation}
+
+Reordenando:
+
+\begin{equation}
+\boxed{E\geq\frac{Rc^4}{2G}}
+\end{equation}
+
+Esta es la energía mínima necesaria para producir un horizonte de sucesos de radio $R$.
+
+La energía entregada durante un intervalo temporal $t$ se expresa como:
+
+\begin{equation}
+E=Pt
+\end{equation}
+
+donde $P$ es potencia.
+
+Sustituyendo:
+
+\begin{equation}
+Pt\geq\frac{Rc^4}{2G}
+\end{equation}
+
+Despejando:
+
+\begin{equation}
+\boxed{P\geq\frac{c^4}{2G}\frac{R}{t}}
+\end{equation}
+
+Esta ecuación relaciona tres variables fundamentales: tamaño de la región energética, tiempo de concentración y potencia necesaria.
+
+La relatividad especial establece que ninguna interacción puede propagarse más rápido que la velocidad de la luz.
+
+Para una región de tamaño $R$, el tiempo mínimo necesario para que la información viaje de un extremo al otro es:
+
+\begin{equation}
+t_c=\frac{R}{c}
+\end{equation}
+
+Por lo tanto:
+
+\begin{equation}
+t\geq\frac{R}{c}
+\end{equation}
+
+Sustituyendo este límite en la ecuación de potencia:
+
+\begin{equation}
+P\geq\frac{c^4}{2G}\frac{R}{\frac{R}{c}}
+\end{equation}
+
+Simplificando:
+
+\begin{equation}
+\boxed{P\geq\frac{c^5}{2G}}
+\end{equation}
+
+Aparece una escala fundamental de potencia, cercana a la potencia de Planck:
+
+\begin{equation}
+P\sim10^{52}\text{ W}
+\end{equation}
+
+Este resultado indica que existe una relación profunda entre concentración energética, causalidad y gravedad.
+
+\section{Modelo físico-matemático}
+El análisis inicial con partículas aceleradas presenta una limitación: aumentar la masa de los proyectiles solo incrementa linealmente la energía disponible.
+
+Un núcleo pesado contiene más nucleones que un protón, pero la ganancia permanece pequeña frente a la escala gravitatoria requerida.
+
+Por esta razón, el modelo se transforma en una configuración donde la fuente principal no es la masa de partículas, sino la energía electromagnética.
+
+Para minimizar problemas geométricos se considera una distribución ideal:
+
+\begin{equation}
+\rho_{E(r)}=\text{distribución esféricamente simétrica}
+\end{equation}
+
+La energía total se distribuye alrededor de un centro común, evitando un momento lineal neto:
+
+\begin{equation}
+\sum\vec{p}=\vec{\textbf{0}}
+\end{equation}
+
+La simetría elimina efectos direccionales y permite estudiar únicamente la condición gravitatoria.
+
+El sistema idealizado sería una esfera de radiación convergente.
+
+El criterio fundamental permanece:
+
+\begin{equation}
+E\geq\frac{Rc^4}{2G}
+\end{equation}
+
+Si la energía contenida dentro de una región supera este valor, la relatividad general predice la formación de un horizonte de sucesos.
+
+El problema deja de ser químico o nuclear y pasa a ser un problema de densidad energética, geometría y estabilidad del campo electromagnético.
+
+Aunque el modelo matemático permite analizar la condición ideal, existen obstáculos fundamentales:
+
+\begin{itemize}
+\item La radiación electromagnética posee límites impuestos por difracción, longitud de onda y estabilidad del frente de onda.
+\item A campos extremadamente intensos pueden aparecer creación de pares electrón-positrón, plasmas relativistas y producción de partículas secundarias.
+\item La energía debe permanecer concentrada durante el tiempo suficiente para que la gravedad domine sobre la expansión de la radiación.
+\end{itemize}
+
+\section{Conclusión}
+El análisis muestra una transición conceptual importante:
+
+Inicialmente, la creación de micro-agujeros negros fue considerada desde la perspectiva de colisiones de partículas masivas y aceleradores. Sin embargo, al comparar la energía disponible con el radio de Schwarzschild correspondiente, se observa que las escalas gravitatorias están muy alejadas de las alcanzadas experimentalmente.
+
+La alternativa conceptual es concentrar energía directamente, utilizando radiación electromagnética en una configuración altamente simétrica.
+
+El modelo matemático obtenido:
+
+\begin{equation}
+\boxed{E\geq\frac{Rc^4}{2G}}
+\end{equation}
+
+y su forma en potencia:
+
+\begin{equation}
+\boxed{P\geq\frac{c^4}{2G}\frac{R}{t}}
+\end{equation}
+
+permiten estudiar las condiciones necesarias para un agujero negro artificial.
+
+Aunque la tecnología actual se encuentra muy lejos de alcanzar estas condiciones, el estudio de estos escenarios proporciona un marco para investigar la frontera entre energía, gravedad y la geometría del espacio-tiempo.
+
+El objetivo principal no es únicamente construir un agujero negro artificial, sino comprender el límite donde la física de partículas y la relatividad general dejan de ser disciplinas separadas y comienzan a describir el mismo fenómeno.
+
+\end{document}

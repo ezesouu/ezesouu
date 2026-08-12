@@ -1,6 +1,7 @@
 # Error del factor $$V\Delta P$$ inducido por el $$\text{H}_2$$ en la entalpía del $$\text{Li}$$, $$\text{Na}$$ y $$\text{K}$$
 
-## Qué es
+## Análisis
+
 La entalpía equivale a:
 ```math
 H=U+PV
@@ -32,7 +33,11 @@ Ya que
 ```math
 \Delta H=mc_e\Delta T+V\cdot0
 ```
+
+---
+
 ## Objetivo
+
 A partir de las reacciones
 ```math
 2\text{X}+2\text{H}_2\text{O}\to2\text{XOH}+\text{H}_2,
