@@ -1,4 +1,4 @@
-# 265 - Error del factor $$V\Delta P$$ inducido por el $$\text{H}_2$$ en la entalpía del $$\text{Li}$$, $$\text{Na}$$ y $$\text{K}$$
+# 265 — Error del factor $$V\Delta P$$ inducido por el $$\text{H}_2$$ en la entalpía del $$\text{Li}$$, $$\text{Na}$$ y $$\text{K}$$
 
 ## Análisis
 
