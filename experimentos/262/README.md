@@ -1,4 +1,4 @@
-# 262 - Simulador de campos electromagnéticos
+# 262 — Simulador de campos electromagnéticos
 
 ## Qué es
 
