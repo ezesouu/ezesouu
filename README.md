@@ -1,4 +1,4 @@
-|ID|Experimento|Documentación|Código|
+|ID|Experimento|Documentación|Software|
 |--|-----------|-------------|------|
 |[261](experimentos/261)|Representación de la órbita de un satélite alrededor de la Tierra (2D)|[Informe](experimentos/261/orbit.pdf)|[![Código](https://img.shields.io/badge/Código-green)](experimentos/261/main.py)|
 |[262](experimentos/262)|Simulador de campos electromagnéticos|[Informe](experimentos/262/fields.pdf)|![Código](https://img.shields.io/badge/Código-orange)|
