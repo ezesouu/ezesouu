@@ -1,10 +1,8 @@
-# 261 — Representación de la órbita de un satélite alrededor de la Tierra (2D)
+# 261 — Representación de la órbita de un satélite alrededor de la Tierra
 
 ## Qué es
 
-Simulación estatonumérica de la órbita de un satélite alrededor de la Tierra en dos dimensiones, utilizando un modelo gravitatorio newtoniano.
-
-El programa permite definir órbitas circulares o elípticas a partir de altitudes de perigeo y apogeo.
+Simulación dinamonumérica de la órbita de un satélite alrededor de la Tierra en tres dimensiones, utilizando un modelo gravitatorio relativista.
 
 ---
 
@@ -14,26 +12,4 @@ Modelar y visualizar el comportamiento dinámico de un satélite en órbita terr
 
 ---
 
-## Cómo se ejecuta
-
-Requisitos:
-- Python 3.x
-- Librerías: numpy, matplotlib
-
-Instalación:
-```console
-pip install numpy matplotlib
-```
-Ejecución:
-```console
-python main.py <altitud1> <altitud2>
-```
-Parámetros:
-```console
-<altitud1> <altitud2> (elíptica)
-```
-```console
---circular <altitud> (circular)
-```
-> [!WARNING]
-> Todas las altitudes en kilómetros por encima del nivel del mar (>0 km ASL).
+El ejecutable ```SimuladorOrbital.exe``` se guardará en ```/dist```.
